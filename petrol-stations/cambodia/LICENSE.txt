@@ -1,0 +1,18 @@
+DATA LICENSE: Open Data Commons Open Database License (ODbL) v1.0
+
+© OpenStreetMap contributors
+https://www.openstreetmap.org/copyright
+
+This database is derived from OpenStreetMap and is made available under ODbL 1.0:
+https://opendatacommons.org/licenses/odbl/1-0/
+Full legal code:
+https://opendatacommons.org/licenses/odbl/1-0/index.html
+
+The data files (CSV, GeoJSON and source-derived provenance) must be used and
+redistributed in compliance with that license, including applicable attribution
+and share-alike requirements. Please retain this notice and the provenance.
+
+Extract supplied and processed by Geofabrik:
+https://download.geofabrik.de/asia/cambodia.html
+
+No warranty of completeness, accuracy, or current station operations is provided.

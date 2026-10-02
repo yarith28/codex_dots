@@ -1,0 +1,90 @@
+{
+  "dataset": "Cambodia OSM amenity=fuel POIs",
+  "source_url": "https://download.geofabrik.de/asia/cambodia-260930.osm.pbf",
+  "source_page": "https://download.geofabrik.de/asia/cambodia.html",
+  "source_snapshot_utc": "2026-09-30T20:22:42Z",
+  "source_file_bytes": 41018214,
+  "source_md5": "6e3f552b943465811cb8a896e9325703",
+  "published_md5_verified": true,
+  "source_sha256": "00d121ff4a4a6b84ab5f2124b00e15d2463fdc57737d59d639084f41cd4892be",
+  "country_boundary_osm_relation": 49898,
+  "country_boundary_valid": true,
+  "country_boundary_bounds_wgs84": [
+    102.3338282,
+    9.4110961,
+    107.6312364,
+    14.6903133
+  ],
+  "source_tagged_object_counts": {
+    "node": 1575,
+    "way": 96,
+    "relation": 0
+  },
+  "source_unique_tagged_objects": 1671,
+  "repeated_exact_object_identities_removed": 0,
+  "output_rows": 1650,
+  "output_object_counts": {
+    "node": 1555,
+    "way": 95,
+    "relation": 0
+  },
+  "excluded_objects": 21,
+  "excluded_reasons": {
+    "representative_point_outside_cambodia_osm_boundary": 21
+  },
+  "unusable_geometries": 0,
+  "potential_duplicate_pairs": 25,
+  "objects_flagged_potential_duplicate": 41,
+  "quality_flag_counts": {
+    "missing_address_tags": 1560,
+    "potential_duplicate_site": 41,
+    "missing_name": 368
+  },
+  "coordinate_method_counts": {
+    "osm_node": 1555,
+    "polygon_point_on_surface": 95
+  },
+  "missing_fields": {
+    "name": 702,
+    "name_km": 1563,
+    "name_en": 1234,
+    "brand": 1316,
+    "operator": 1633,
+    "address": 1560,
+    "addr_full": 1650,
+    "addr_street": 1584,
+    "addr_city": 1610
+  },
+  "has_any_name": 1282,
+  "with_any_address_tags": 90,
+  "csv_rows_with_escaped_cells": 1,
+  "coordinates_wgs84_bounds": {
+    "min_longitude": 102.361376,
+    "min_latitude": 10.4802699,
+    "max_longitude": 107.4892759,
+    "max_latitude": 14.4139653
+  },
+  "validation": {
+    "all_rows_unique_osm_identity": true,
+    "all_output_points_inside_or_on_cambodia_boundary": true,
+    "all_coordinates_finite_and_globally_valid": true,
+    "csv_geojson_row_count_equal": true,
+    "input_reconciled": true,
+    "contributor_metadata_exported": false
+  },
+  "software": {
+    "python": "3.12.14",
+    "osmium": "4.3.1",
+    "shapely": "2.1.2"
+  },
+  "license": "ODbL-1.0",
+  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "© OpenStreetMap contributors",
+  "output_sha256": {
+    "cambodia_fuel_stations.csv": "d3f61b98e3dd3515d45b37d457c8f9a25ba9034261d81c3df29acefd26f7299c",
+    "cambodia_fuel_stations.geojson": "7aab39ffc669d97bd9f30c1576001fdf088bffbd2affa0bd0d7e019eb4edbb1a",
+    "cambodia_filter_boundary.geojson": "ed32c43f963d45896292a48ebf6eb519e1df9a6009e98dc5402b80212b577512",
+    "potential_duplicate_pairs.csv": "0833e151b351e4926712784ca518050fde4aaf605892df3bfcb94fe6e6b8951d",
+    "excluded_osm_objects.csv": "008d14575f677a89baee895b858320d5279a831a23a83993c041448e85f3cc78"
+  }
+}
